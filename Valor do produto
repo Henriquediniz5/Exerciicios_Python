@@ -1,0 +1,8 @@
+#faça um programa que leia a partir da digitalçao de um usuário
+# descrição de um produto, o seu valor unitário e a sua quantidade.o programa deve calcular e informar o valor a pagar pelo produto
+
+descrição = input("Descrição do produto: ")
+valor = float(input("Digite o valor unitario: "))
+quantidade = int(input("Digite a quantidade: "))
+total = valor * quantidade
+print("O valor a pagar",total)
