@@ -1,0 +1,7 @@
+time = input('Digite um nome de um time:')
+vitórias = int(input('Digite as vitórias deste time:'))
+derrotas = int(input('Digite as derrotas deste time:'))
+empates = int(input('Digite os empates deste time:'))
+jogos = vitórias + derrotas + empates
+pontos_ganhos = vitórias * 3 + empates
+print('O time', time, ' jogou', jogos, ' jogos e obteve', pontos_ganhos, 'pontos')
