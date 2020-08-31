@@ -1,0 +1,8 @@
+qtd_sistemas = int(input("Quantidade de alunos que cursam sistemas: "))
+qtd_analises = int(input("Quantidade de alunos que cursam analises:  "))
+total_alunos = qtd_sistemas+qtd_analises
+perc_sistemas = qtd_sistemas/total_alunos*100
+perc_analises = qtd_analises/total_alunos*100
+print("Total de alunos : ", total_alunos)
+print("Percentual de alunos que cursam sistemas: ",perc_sistemas, "%")
+print("Percentual de alunos que cursam analises: ",perc_analises, "%")
