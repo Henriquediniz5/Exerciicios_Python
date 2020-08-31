@@ -1,0 +1,5 @@
+#Faca um programa que obtenha um numero inteiro digitado pelo usuario, calcule e informe o dobro desse numero
+
+valor = int(input("digite um valor: "))
+dobro = valor * 2
+print("O dobro obtido e: ", valor * 2)
